@@ -1,0 +1,102 @@
+/* CSS for Basketball Scorecard  
+version : 1.0
+Author : TechTronixx */
+
+/* Import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@font-face {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  src: url(Fonts/CursedTimer.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Set default styles for body */
+body {
+  margin: 0;
+  background-color: rgb(220, 244, 243);
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 2.5rem;
+}
+
+.score {
+  background: #0a0001;
+  margin: 1rem;
+  color: #f94f6d;
+  min-width: 6rem;
+  max-width: 10rem;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 4rem;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+  height: 300px;
+  background: #90b4ce;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+  outline: solid 7px rgba(255, 255, 255, 0.995);
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: #094067;
+  font-size: 1.9em;
+}
+
+.btn1 {
+  cursor: grab;
+  border-radius: 6px;
+  background-color: #a3b6c4;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #094067;
+  font-size: 1.3rem;
+}
+
+.btn-cont > button:active {
+  transform: scale(0.9);
+}
+
+#newGame-Btn {
+  background-color: #90b4ce;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  outline: solid white 5px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  width: 100px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+/* github Button spin animation  */
+.fa-spin {
+  margin: bottom;
+  position: 0;
+  animation: spin 10s linear infinite;
+}
+
+#github-icon {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

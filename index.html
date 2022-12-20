@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basketball Scoreboard</title>
+
+    <!-- Style Sheet Link -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/x-icon" href="Images/Favicon.png" /> -->
+  </head>
+  <body>
+    <!-- <--Script Link-->
+    <script src="src/index.js"></script>
+    <div class="container">
+      <div class="column">
+        <h3 class="team" id="home-team">HOME</h3>
+        <h2 class="score" id="home-score">00</h2>
+        <div class="btn-cont">
+          <button class="btn1" onclick="addPnt1()">+1</button>
+          <button class="btn1" onclick="addPnt2()">+2</button>
+          <button class="btn1" onclick="addPnt3()">+3</button>
+        </div>
+      </div>
+      <div class="column">
+        <h3 class="team" id="guest-team">GUEST</h3>
+        <h2 class="score" id="guest-score">00</h2>
+        <div class="btn-cont">
+          <button class="btn1" onclick="addGPnt1()">+1</button>
+          <button class="btn1" onclick="addGPnt2()">+2</button>
+          <button class="btn1" onclick="addGPnt3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <div class="btn-cont">
+      <button id="newGame-Btn" onclick="newGame()">New Game</button>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <a href="https://github.com/TechTronixx">
+          <i id="github-icon" style="font-size: 35px" class="fa fa-spin"
+            >&#xf09b;
+          </i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
