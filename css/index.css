@@ -105,3 +105,26 @@ h3 {
     transform: rotate(360deg);
   }
 }
+
+/* <-- Mobile Responsive stuff  ---> */
+
+/* Make the container responsive for mobile devices */
+@media (max-width: 600px) {
+  .container {
+    width: 90%; /* Set the width to 90% of the viewport width */
+    height: auto; /* Set the height to auto to adjust to the content */
+  }
+}
+
+/* Make the heading responsive for mobile devices */
+@media (max-width: 600px) {
+  h3 {
+    font-size: 1.5rem; /* Reduce the font size for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .btn1 {
+    font-size: 1rem; /* Reduce the font size for smaller screens */
+  }
+}
