@@ -10,9 +10,9 @@ This is a web application that allows users to keep track of the score of a bask
 - Increase the score for the home team or the guest team by 1, 2, or 3 points
 - Reset the scores to 0 with the "New Game" button
 
-<!-- ## Demo
+## Demo
 
-A live demo of the Basketball Scoreboard can be found [here](https://demo.com). -->
+A live demo of the Basketball Scoreboard can be found [here](https://basketball-scorecard.vercel.app/).
 
 ## Usage
 
