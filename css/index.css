@@ -15,7 +15,7 @@ Author : TechTronixx */
 /* Set default styles for body */
 body {
   margin: 0;
-  background-color: rgb(220, 244, 243);
+  background-color: #dcf4f3;
   text-align: center;
   font-family: "Orbitron", sans-serif;
   display: grid;
@@ -39,8 +39,9 @@ body {
 .container {
   margin: auto;
   display: flex;
+  margin-top: 15px;
   justify-content: space-around;
-  width: 350px;
+  width: 380px;
   height: 300px;
   background: #90b4ce;
   border-radius: 30px;
@@ -48,10 +49,11 @@ body {
   outline: solid 7px rgba(255, 255, 255, 0.995);
 }
 
+/* heading Gust & Home */
 h3 {
   font-family: "Poppins", sans-serif;
   color: #094067;
-  font-size: 1.9em;
+  font-size: 2.1rem;
 }
 
 .btn1 {
@@ -73,6 +75,7 @@ h3 {
   border-radius: 4px;
   outline: solid white 5px;
   text-align: center;
+  font-family: "Poppins", sans-serif;
   padding: 5px 10px 5px 10px;
   width: 100px;
   cursor: pointer;
@@ -90,6 +93,8 @@ h3 {
   position: fixed;
   bottom: 0;
   left: 50%;
+  transform: translateX(-50%);
+  color: #90b4ce;
 }
 
 @keyframes spin {
